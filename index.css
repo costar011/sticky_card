@@ -15,7 +15,7 @@ body {
 }
 
 .cards {
-    margin-top: 8px;
+    margin-top: 80px;
 }
 
 .card {
@@ -31,6 +31,8 @@ body {
 .card__heading p {
     margin-right: 20px;
     font-size: 80px;
+    position:  sticky;
+    top: 10px;
 }
 
 .card__content p {
