@@ -14,3 +14,24 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+.cards {
+    margin-top: 80px;
+}
+
+.card {
+    width: 350px;
+
+    display: flex;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card__heading p {
+    margin-right: 20px;
+    font-size: 80px;
+    position: sticky;
+    top: 10px;
+}
